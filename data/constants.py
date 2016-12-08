@@ -25,7 +25,7 @@ CYAN         = (  0, 255, 255)
 BLACK        = (  0,   0,   0)
 NEAR_BLACK    = ( 19,  15,  48)
 COMBLUE      = (233, 232, 255)
-GOLD         = (255, 215,   0)
+GOLD         = (235, 105,   1)
 
 BGCOLOR = WHITE
 
@@ -35,6 +35,7 @@ BACKGROUND_MULTIPLER = 2.679
 GROUND_HEIGHT = SCREEN_HEIGHT - 62
 
 #MARIO FORCES
+<<<<<<< HEAD
 WALK_ACCEL = .15
 RUN_ACCEL = 20
 SMALL_TURNAROUND = .35
@@ -47,6 +48,20 @@ MAX_Y_VEL = 11
 
 MAX_RUN_SPEED = 800
 MAX_WALK_SPEED = 6
+=======
+WALK_ACCEL = .3
+RUN_ACCEL = 40
+SMALL_TURNAROUND = .7
+
+GRAVITY = 2.02
+JUMP_GRAVITY = .62
+JUMP_VEL = -20
+FAST_JUMP_VEL = -25
+MAX_Y_VEL = 22
+
+MAX_RUN_SPEED = 1600
+MAX_WALK_SPEED = 12
+>>>>>>> refs/remotes/pulumu/master
 
 
 #Mario States
